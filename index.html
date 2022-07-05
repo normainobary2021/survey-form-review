@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Survey Form</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -24,7 +26,7 @@
         name="name"
         required
       />
-      <label id="email-label" for="name">Email</label>
+      <label id="email-label" for="email">Email</label>
       <input
         id="email"
         type="email"
@@ -35,7 +37,7 @@
       />
       <label id="number-label" for="age">Age (optional)</label>
       <input
-        id="number"
+        id="age"
         type="number"
         min="15"
         max="90"
@@ -69,7 +71,7 @@
         rows="20"
         placeholder="Enter comments here..."
       ></textarea>
-      <input type="submit" id="submit" value="Submit"></input>
+      <input type="submit" id="submit" value="Submit" />
     </form>
     <script src="js/index.js"></script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
