@@ -46,26 +46,27 @@
         placeholder="Age"
       />
       <label for="gender">Gender</label>
-      <select name="gender" id="dropdown">
+      <select name="gender" id="gender">
         <option disabled selected>Select Gender</option>
-        <option value="male">Male</option>
-        <option value="female">Female</option>
+        <option id="gender" value="male">Male</option>
+        <option id="gender" value="female">Female</option>
       </select>
       <label for="recommend">Would you recommend Microverse to a friend?</label><br>
-      <input type="radio" name="recommend" value="yes" /> Yes
-      <input type="radio" name="recommend" value="no" /> No
-      <input type="radio" name="recommend" value="maybe" /> Maybe<br>
+      <input id="recommend" type="radio" name="recommend" value="yes" /> Yes
+      <input id="recommend" type="radio" name="recommend" value="no" /> No
+      <input id="recommend" type="radio" name="recommend" value="maybe" /> Maybe<br>
       <br><label for="likes">What have you liked most about the platform?</label><br>
-      <input type="checkbox" name="likes" value="support" /> Support<br>
-      <input type="checkbox" name="likes" value="challenges" /> Challenges<br>
-      <input type="checkbox" name="likes" value="pair-programming" /> Pair
-      Programming<br> <input type="checkbox" name="likes" value="videos" /> Videos<br>
-      <input type="checkbox" name="likes" value="reading material" /> Reading
+      <input id="likes" type="checkbox" name="likes" value="support" /> Support<br>
+      <input id="likes" type="checkbox" name="likes" value="challenges" /> Challenges<br>
+      <input id="likes" type="checkbox" name="likes" value="pair-programming" /> Pair
+      Programming<br> <input id="likes" type="checkbox" name="likes" value="videos" /> Videos<br>
+      <input id="likes" type="checkbox" name="likes" value="reading material" /> Reading
       Material<br>
-      <input type="checkbox" name="likes" value="open source community" /> Open
+      <input id="likes" type="checkbox" name="likes" value="open source community" /> Open
       Source Community <br><br>
       <label for="comments">Any comments in addition to the above?</label><br>
       <textarea
+        id="comments"
         name="comments"
         cols="30"
         rows="20"
